@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getDatasets, logDownload, hasDownloadedBefore, logEnergySavings } from '../services/dbService';
-import { downloadFileUrl, downloadFile } from '../services/storageService';
+import { downloadFile } from '../services/storageService';
 import { getCurrentUser } from '../services/authService';
 import { calculateSavings } from '../utils/energyUtils';
 

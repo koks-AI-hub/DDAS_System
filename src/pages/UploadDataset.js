@@ -10,7 +10,7 @@ const UploadDataset = ({ user }) => {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState({ type: '', message: '' });
-  const [hashProgress, setHashProgress] = useState('');
+  const [setHashProgress] = useState('');
   
   const navigate = useNavigate();
 

@@ -15,8 +15,6 @@ const Layout = ({ children, user }) => {
     }
   };
 
-  const isActive = (path) => location.pathname === path ? 'active bg-primary text-white' : 'text-dark';
-
   return (
     <div className="d-flex flex-column min-vh-100 bg-light font-sans">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient sticky-top shadow">
